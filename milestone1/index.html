@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src='https://unpkg.com/vue@3'></script>
+
+  <title>Boolzapp</title>
+</head>
+<body>
+<div id="app">
+<div class="all">
+<div class="header">
+  <div class="whats-head debug">
+    <!-- ---------------- -->
+    <div class="head">
+      <div class="h-user">
+        <div class="info-user">
+          <img src="img/avatar_io.jpg" alt="">
+          <h3 class="u-name">Sofia</h3>
+        </div>        
+    <!-- ---------------- -->
+        <div class="cont-i-user">
+          <i class="fa-solid fa-circle-notch"></i>
+          <i class="fa-solid fa-message"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+    <!-- ---------------- -->
+      <div class="h-friend ">
+        <div class="info-friend-active">
+            <div class="img-friend-active">
+              <img src="img/avatar_1.jpg" alt="">
+            </div>
+            <div class="name-date-friend-active">
+              <h3 class="f-name">Michele</h3>
+              <P>Ultimo accesso oggi alle 12:00</P>
+            </div>
+    <!-- ---------------- -->
+            <div class="cont-i-friend-active">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-paperclip"></i>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+    <!-- ---------------- -->
+          </div>
+      </div>
+    </div>
+    <!-- ------------ -->
+    <div class="cont-whats-body">
+      <div class="whats-body-left debug">
+        <div class="on-noti">
+          <div class="bell-cont">
+            <i class="fa-solid fa-bell-slash"></i>
+          </div>
+            <div class="info-bell">
+              <h3>Ricevi notifiche di nuovi messaggi</h3>
+              <p>Attiva notifiche dekstop</p>
+            </div>
+        </div>
+    <!-- ------------ -->
+        <div class="text-left">
+           <input class="nosubmit" placeholder="Cerca o inizia una nuova chat" type="text">
+        </div>
+    <!-- ------------ lista amici -->
+        <div class="cont-list-friends">
+          <div class="scroll"></div>
+          <ul class="list-friends">
+
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_1.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Michele</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_2.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Fabio</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_3.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Samuele</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_4.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Alessandro B</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_5.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Alessandro I</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_6.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Claudia</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_7.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Federico</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+            <li class="friend">
+              <div class="desc-pic">
+                <img src="img/avatar_8.jpg" alt=""> 
+                <div class="descr">
+                  <h3>Davide</h3>
+                  <p>Ultimo messaggio inviato</p>
+                </div>
+              </div>
+              <div class="data">
+                <p>12.00</p>
+              </div>
+            </li>
+          </ul>
+          
+          </div>
+         
+        </div>
+      </div>
+    <!-- ------------ -->
+      <div class="whats-body-right debug"></div>
+    </div>
+    
+
+  </div>
+
+
+
+
+
+
+</div>
+</div>
+</div>  
+  <script src="js/script.js"></script>
+</body>
+</html>
