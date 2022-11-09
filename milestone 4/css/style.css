@@ -6,7 +6,7 @@
 
 body{
   background: rgb(219,219,212);
-  background: linear-gradient(0deg, rgba(219,219,212,1) 100%, rgba(32,150,136,1)100%);
+  background: linear-gradient(to bottom, #009688 10%,#DBDBD4 10%);
   font-family: 'Lato', sans-serif;
 }
 
@@ -244,10 +244,6 @@ background-image: url('../img/mine.jpg');
   height: calc(100% - 50px);
   padding-top: 30px;
   overflow-y: auto;
-}
-
-.message i{
-  cursor: pointer;
 }
 
 .cloud-white{
